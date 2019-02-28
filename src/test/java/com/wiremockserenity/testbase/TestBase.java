@@ -1,9 +1,8 @@
 package com.wiremockserenity.testbase;
 
+import io.restassured.RestAssured;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
-
-import io.restassured.RestAssured;
 
 import java.io.IOException;
 
@@ -17,6 +16,7 @@ public class TestBase {
         pb = new ProcessBuilder("src/test/resources/wiremock/wiremock.sh");
         p = pb.start();
         RestAssured.baseURI = "https://my.api.mockaroo.com/newassets"; //"http://localhost:8080"; //http://api.openweathermap.org/data/2.5";
+
 
     }
 
