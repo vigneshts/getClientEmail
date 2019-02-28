@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPattern": "/IL",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"state\": \"Illinois\",\"first_name\": \"Davin\",\"last_name\": \"Tourmell\",\"email\": \"dtourmella0@hhs.gov\",\"gender\": \"Male\",\"asset\": \"$4200575.10\"}"
+  }
+}

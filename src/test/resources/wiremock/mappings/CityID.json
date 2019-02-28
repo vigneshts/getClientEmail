@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPattern": "/id%3D5815135",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"coord\":{\"lon\":-120.5,\"lat\":47.5},\"weather\":[{\"id\":741,\"main\":\"Fog\",\"description\":\"fog\",\"icon\":\"50d\"}],\"base\":\"stations\",\"main\":{\"temp\":269.15,\"pressure\":1028,\"humidity\":73,\"temp_min\":269.15,\"temp_max\":269.15},\"visibility\":16093,\"wind\":{\"speed\":1.5,\"deg\":120},\"clouds\":{\"all\":1},\"dt\":1518278100,\"sys\":{\"type\":1,\"id\":2965,\"message\":0.0038,\"country\":\"US\",\"sunrise\":1518275649,\"sunset\":1518311938},\"id\":5815135,\"name\":\"Washington\",\"cod\":200}"
+  }
+}
